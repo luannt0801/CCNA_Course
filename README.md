@@ -1,43 +1,117 @@
-# DTS
+# CCNA Course
 
-eve-ng: node mạng, firewall
+Khóa học CCNA bao gồm các cuốn sách:
 
-Netmap:
+# Lab Guide
 
-1:0/2 2:0/0
-1:0/3 3:0/0
+## 1. Interconnecting Cisco Networking Devices - Part 1 | Lab guide
 
-Thiết bị 1 cổng 0/2 kết nối thiết bị 2 cổng 0/0, không mô tả ngược lại
+Gồm 7 module các bài lab hướng dẫn cách cấu hình từ các thiết bị mạng đơn giản.
 
-1 model eth có 4 cổng
+### Module 1: Building a Simple Network
 
-## **Lab 1: : done**
+- [ ]  Cấu hình Switch
 
-Switch 1:
+### Module 2: Establishing Internet Connectivity
 
-en
+- [ ]  Cấu hình Cisco Router
+- [ ]  Cấu hình Routing tĩnh
+- [ ]  ACL cơ bản
+- [ ]  Thiết lập kết nối Internet - Triển khai PAT
 
-config t
+### Moduel 3: Summary Challenge
 
-hostname SW1
+- [ ]  Tổng quát Lab - 1
+- [ ]  Tổng quát Lab - 2
 
-### About port
+### Moduel 4: Building a Medium-Sized Network
 
-![Untitled](DTS%20f229d47a3c7045729175ede769b21b06/Untitled.png)
+- [ ]  Triển khai VLANs và TRUNKs
+- [ ]  Routing giữa các VLAN
+- [ ]  Sử dụng Cisco IOS Network Device như DHCP Server
+Triển khai DHCP Server trên 1 thiết bị của Cisco
+- [ ]  Triển khai RIPv2
 
-BTVN: Hoàn thành Module 1 và 2 ( hết trang 14 trong quyển hướng dẫn)
-Nghiên cứu trước lý thuyết module 1, đọc trong quyển PDF quyển ICND_1 đọc hết module 1
+### Moduel 5: Network Device Management and Security
 
-1. Đọc slide của module 1 - chưa hiểu note + xem sách PDF
+- [ ]  Sercuring Administrative Access
+- [ ]  Implementing Device Hardening
+- [ ]  Cấu hình system Message Logging
 
-### Lab 2:
+### Moduel 6: Summary Challenge
 
-[Student Guide Book](DTS%20f229d47a3c7045729175ede769b21b06/Student%20Guide%20Book%20c2bc1a5fa6cd474d81a2158c4ab088a7.md)
+- [ ]  Tổng quát Lab - 3
+- [ ]  Tổng quát Lab - 4
 
-BTVN Làm tiếp các phần Lab
+### Moduel 7: Introducing IPv6
 
-[25-7 DHCP](DTS%20f229d47a3c7045729175ede769b21b06/25-7%20DHCP%204ecf7810cefc43888185ca174ceb31a8.md)
+- [ ]  Cấu hình IPv6 Static Routes
 
-[30-7 - module 6 trouble shooting](DTS%20f229d47a3c7045729175ede769b21b06/30-7%20-%20module%206%20trouble%20shooting%206bb62d98685d454fae9fe8f515fc9fd1.md)
+## 2. Interconnecting Cisco Networking Devices - Part 2 | Lab guide
 
-[1-8-2024 | EIRGP và OSPF](DTS%20f229d47a3c7045729175ede769b21b06/1-8-2024%20EIRGP%20va%CC%80%20OSPF%2070fcd9cbc04a4763a3622f682a604d26.md)
+Gồm 8 bài lab mở rộng.
+
+### Moduel 1: Implementing Scalable Medium-Sized Networks
+
+- [ ]  Troubleshooting kết nốt VLAN
+- [ ]  Building Redundant (dư thừa) Switched Topologies
+- [ ]  Cải thiện  Redundant (dự phòng) Switched Topologies Với EtherChannel
+- [ ]  Hiểu về Layer 3 Redundancy ( dự phòng mạng lớp 3)
+
+### Moduel 2: Troubleshooting Basic Connectivity
+
+- [ ]  Troubleshooting IPv4 Network Connectivity
+- [ ]  Troubleshooting IPv6 Network Connectivity
+
+### Moduel 3: Implementing an EIRGP -Based Solution
+
+- [ ]  Implementing EIRGP
+- [ ]  Troubleshooting EIRGP
+
+### Moduel 4: Summary Challenge
+
+- [ ]  Triển khai và Troubleshooting Scalable Medium-Sized Network - 1
+- [ ]  Triển khai và Troubleshooting Scalable Medium-Sized Network - 2
+
+### Module 5: Implement a Scalable OSPF-Base Solution
+
+- [ ]  Triển khai Multiarea OSPF IPv4
+- [ ]  Triển khai OSPFv3 cho IPv6
+- [ ]  Troubleshooting Multiarea OSPF
+
+### Module 5: Implement a Scalable OSPF-Base Solution
+
+- [ ]  Triển khai Multiarea OSPF IPv4
+
+### Module 6: Wide-Area Networks
+
+- [ ]  Giao thức PPP ( Point to Point Protocols)
+- [ ]  Cấu hình GRE Tunnels
+- [ ]  Cấu hình Single-Homed EBGP
+
+### Module 7: Network Device Management
+
+- [ ]  Triển khai quản lý và bảo mật các thiết bị network cơ bản
+
+### Module 8: Summary Challenge
+
+- [ ]  Triển khai và Troubleshooting Scalable Multiarea Network - 1
+- [ ]  Triển khai và Troubleshooting Scalable Multiarea Network - 2
+
+## Student Guide
+
+- Interconnecting Cisco Networking Devices - Part 1 | Student Guide Vol 1
+
+[ICND1_300-SG_Vol1](CCNA%20Course%203a6c7fec552449feb475b1d7c84c9907/ICND1_300-SG_Vol1%206778e8bdc1684a738897777b328ccdc9.md)
+
+- Interconnecting Cisco Networking Devices - Part 1 | Student Guide Vol 2
+
+[ICND1_300-SG_Vol2](CCNA%20Course%203a6c7fec552449feb475b1d7c84c9907/ICND1_300-SG_Vol2%20e4cb9a4b292f4e66ba4318d1806e8edb.md)
+
+- Interconnecting Cisco Networking Devices - Part 2 | Student Guide Vol 1
+
+[ICND2_300-SG_Vol1](CCNA%20Course%203a6c7fec552449feb475b1d7c84c9907/ICND2_300-SG_Vol1%20f36e187feb3a40608f95ea58cfd24e23.md)
+
+- Interconnecting Cisco Networking Devices - Part 2 | Student Guide Vol 2
+
+[ICND1_300-SG_Vol2](CCNA%20Course%203a6c7fec552449feb475b1d7c84c9907/ICND1_300-SG_Vol2%20de6333dc8d6d4977a093b1411f376912.md)
